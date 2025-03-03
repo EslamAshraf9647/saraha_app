@@ -1,0 +1,29 @@
+{
+  "name": "mongoclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "$env:NODE_ENV=dev;nodemon",
+    "start:Prod": "$env:NODE_ENV=prode;node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.13.3",
+    "joy": "^0.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.9.6",
+    "mongose": "^0.0.2-security",
+    "nodemailer": "^6.10.0",
+    "uuid": "^11.0.5"
+  }
+}
